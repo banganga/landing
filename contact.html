@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700|Roboto:400,400italic,500,500italic,700,900,300">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+</head>
+<body>
+	<!-- Container -->
+	<div id="container">
+
+		<!-- Header -->
+		<header class="clearfix">
+			<nav class="navbar navbar-default navbar-fixed-top navbar-scroll" role="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+							<i class="fa fa-bars"></i>
+						</button>
+						<a class="navbar-logo" href="index.html"><img src="images/logo.png" alt=""></a>
+					</div>
+					<div class="collapse navbar-collapse" id="navbar-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="drop"><a class="active" href="index.html">Home</a>
+								<ul class="dropdown">
+									<li><a href="home2.html">Home v2</a></li>
+									<li><a href="home3.html">Home v3</a></li>
+									<li><a href="home4.html">Home v4</a></li>
+									<li><a href="home5.html">Home v5</a></li>
+									<li><a href="home6.html">Home v6</a></li>
+								</ul>
+							</li>
+							<li class="drop"><a href="projects-2colums.html">Projects</a>
+								<ul class="dropdown">
+									<li><a href="projects-3colums.html">Projects 3 Colums</a></li>
+									<li><a href="projects-4colums.html">Projects 4 Colums</a></li>
+									<li><a href="projects-2colums-fullwidth.html">Projects 2 Colums Fullwidth</a></li>
+									<li><a href="projects-3colums-fullwidth.html">Projects 3 Colums Fullwidth</a></li>
+									<li><a href="projects-4colums-fullwidth.html">Projects 4 Colums Fullwidth</a></li>
+									<li><a href="projects-masonry.html">Projects Masonry</a></li>
+									<li><a href="projects-masonry-fullwidth.html">Projects Masonry Fullwidth</a></li>
+									<li><a href="single-project.html">Single Project</a></li>
+								</ul>
+							</li>
+							<li class="drop"><a href="about.html">About Us</a>
+								<ul class="dropdown">
+									<li><a href="about2.html">About Us v2</a></li>
+									<li><a href="about3.html">About Us v3</a></li>
+								</ul>
+							</li>
+							<li class="drop"><a href="services.html">Services</a>
+								<ul class="dropdown">
+									<li><a href="services2.html">Services v2</a></li>
+								</ul>
+							</li>
+							<li class="drop"><a href="#">Pages</a>
+								<ul class="dropdown">
+									<li><a href="404-error.html">404 Error</a></li>
+								</ul>
+							</li>
+							<li class="drop"><a href="blog-classic.html">Blog</a>
+								<ul class="dropdown">
+									<li><a href="blog-classic-2-col.html">Blog 2 columns</a></li>
+									<li><a href="blog-classic-left-sidebar.html">Blog сlassic left sidebar</a></li>
+									<li><a href="blog-masonry-2-col.html">Blog masonry 2 columns</a></li>
+									<li><a href="blog-masonry-3-col.html">Blog masonry 3 columns</a></li>
+									<li><a href="blog-vertical-images-left-sidebar.html">Blog vertical images 1</a></li>
+									<li><a href="blog-vertical-images-right-sidebar.html">Blog vertical images 2</a></li>
+									<li><a href="single-post.html">Single Post</a></li>
+								</ul>
+							</li>
+							<li class="drop"><a href="contact.html">Contact</a>
+								<ul class="dropdown">
+									<li><a href="contact2.html">Contact 2</a></li>
+									<li><a href="contact3.html">Contact 3</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div><!-- /.container -->
+			</nav>
+		</header>
+		<!-- End Header -->
+
+		<!-- Page banner section -->
+		<section class="page-banner-section-dark">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<h2 class="page-title">Contact us</h2>
+						<p class="title-description">Home / <span class="current-page">Contact us</span></p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Page banner section -->
+
+		<!-- Contacts-section -->
+		<section class="contact-section" id="contact">
+			<div class="container">
+				<div class="row align-center">
+					<div class="col-md-6">
+						<form id="contact-form" class="contact-form">
+							<span>Send us a message</span>
+							<div class="row">
+								<div class="col-md-6">
+									<input type="text" placeholder="Name" id="name" name="name" >
+									<div id='name_error' class='error'>Please enter your name.</div>
+								</div>
+								<div class="col-md-6">
+									<input type="text" placeholder="Email" id="email" name="email">
+									<div id='email_error' class='error'>Please enter your valid E-mail.</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<textarea placeholder="Message" rows="5" id="message" name="message"></textarea>
+									<div id='message_error' class='error'>Please enter your message.</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<input type="submit" class="btn-round small-btn margin-t-10" value="Send Message" id='send_message'>
+									<div id='mail_success' class='success'>Your message has been sent successfully.</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="col-md-6">
+						<div class="contact-us-information">
+							<span class="contact-info-title">Contact Info</span>
+							<p class="contact-info-text">You’ve got questions, and we have answers. Just send us a message and one
+								of our knowledgeable support staff will be in contact with you within 48hrs – even on weekends and holidays.
+							</p>
+							<div class="row contact-us-information-list">
+								<div class="col-md-12 col-sm-4 contact-us-item">
+									<i class="fa fa-map-marker"></i><span>Manukau Road, Auckland 1051, New Zealand</span>
+								</div>
+								<div class="col-md-12 col-sm-4 contact-us-item">
+									<i class="fa fa-phone"></i><span>(+021)123 - 456 - 789</span>
+								</div>
+									<div class="col-md-12 col-sm-4 contact-us-item">
+										<i class="fa  fa-envelope"></i><a href="#">example-email@support.com</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End contacts section -->
+
+		<!-- Map section -->
+		<section class="map-section">
+			<div class="full-container">
+				<div id="map"></div>
+			</div>
+		</section>
+		<!-- Map section -->
+
+		<!-- Footer -->
+		<footer>
+			<div class="up-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6 footer-block">
+							<div class="footer-widget footer-about-us">
+								<h3>About us</h3>
+								<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								<ul class="social-icon margin-t-30">
+									<li><a class="fa fa-linkedin" href="#"></a></li>
+									<li><a class="fa fa-twitter" href="#"></a></li>
+									<li><a class="fa fa-google-plus" href="#"></a></li>
+									<li><a class="fa fa-facebook" href="#"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 footer-block">
+							<div class="footer-widget">
+								<h3>Information</h3>
+								<ul class="footer-menu list-unstyled">
+									<li class="footer-menu-item">
+										<i class="footer-menu-icon fa fa-angle-right"></i>
+										<a class="footer-item-link" href="#">About our company</a>
+									</li>
+									<li class="footer-menu-item">
+										<i class="footer-menu-icon fa fa-angle-right"></i>
+										<a class="footer-item-link" href="#">Main project</a>
+									</li>
+									<li class="footer-menu-item">
+										<i class="footer-menu-icon fa fa-angle-right"></i>
+										<a class="footer-item-link" href="#">Our services</a>
+									</li>
+									<li class="footer-menu-item">
+										<i class="footer-menu-icon fa fa-angle-right"></i>
+										<a class="footer-item-link" href="#">Company blog</a>
+									</li>
+									<li class="footer-menu-item">
+										<i class="footer-menu-icon fa fa-angle-right"></i>
+										<a class="footer-item-link" href="#">Contact us</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 footer-block">
+							<div class="footer-widget">
+								<h3>News</h3>
+								<ul class="footer-news">
+									<li>
+										<article class="clearfix">
+											<p class="footer-news-title"><a href="#">Lorem ipsum dolor amet...</a></p>
+											<p class="footer-news-date">March 05, 2015</p>
+										</article>
+									</li>
+									<li>
+										<article class="clearfix">
+											<p class="footer-news-title"><a href="#">Lorem ipsum dolor amet...</a></p>
+											<p class="footer-news-date">March 05, 2015</p>
+										</article>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 footer-block">
+							<div class="footer-widget info-widget">
+								<h3>Contact info</h3>
+								<ul class="footer-address">
+									<li><i class="fa fa-map-marker fa-lg"></i><p>Auckland 1051, New Zealand</p></li>
+									<li><i class="fa fa-phone fa-lg"></i><p>(+01987) 123 - 568 - 907</p></li>
+									<li><i class="fa fa-envelope fa-lg"></i><p><a href="#">example@gmail.com</a></p></li>
+									<li><i class="fa fa-clock-o fa-lg"></i><p>09:00 - 18:00</p></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p class="copyright">
+				Copyright 2017 © All rights reserved.
+			</p>
+		</footer>
+		<!-- Footer -->
+
+	</div>
+	<!-- End Container -->
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyAQB-telskyjuO_bYsNHNnfdC1xRqGkUds"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+</html>
+
+
+
+
