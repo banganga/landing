@@ -18,6 +18,7 @@
  * 17 Elements
  * 18 Sections
  * 19 Padding and margin classes
+ * 20 rates 
  * ========================================================================== */
 
 
@@ -5178,6 +5179,10 @@ li.active a, li.active a:hover {
 .pad-4-lg {
   padding: 75px;
 }
+
+/* 20 rates */
+/*------------------------------------------------------------------*/
+
 @media (min-width: 1200px) {
   .left-rate {
     
@@ -5185,9 +5190,8 @@ li.active a, li.active a:hover {
   .right-rate {
 
   }
-  .left-rate, .right-rate {
-    min-width: 400px;
-    max-width: 530px;
+  .left-rate, .right-rate, .mid-rate {
+    
   }
 }
 
@@ -5198,9 +5202,8 @@ li.active a, li.active a:hover {
   .right-rate {
 
   }
-  .left-rate, .right-rate {
-    min-width: 300px;
-    max-width: 430px;
+  .left-rate, .right-rate, .mid-rate {
+    width: 33.3333%;
   }
 }
 
@@ -5208,10 +5211,17 @@ li.active a, li.active a:hover {
   position: relative;
   float: left;
 } 
+
+.mid-rate {
+  position: relative;
+  float: left;
+} 
+
 .right-rate {
   position: relative;
   float: right;
 }
-.left-rate, .right-rate {
+
+.left-rate, .right-rate, .mid-rate {
   padding: 5px;
 }
