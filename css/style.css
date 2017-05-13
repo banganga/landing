@@ -1740,7 +1740,7 @@ iframe {
 .sign-up-form .btn {
   width: 100%;
   font-size: 16px;
-  padding: 10px 35px;
+  padding: 10px 5px;
   border-radius: 3px;
 }
 
@@ -4750,7 +4750,7 @@ li.active a, li.active a:hover {
   padding: 12em 0;
 }
 
-.light-our-features-section, .our-features-section, .contact-section {
+.our-features-section, .contact-section {
   padding: 9em 0;
 }
 
@@ -4960,9 +4960,10 @@ li.active a, li.active a:hover {
 }
 
 .sign-up-form-section {
-  background: transparent url("../images/main_images/subscribe_img.jpg") repeat fixed 0 0/cover;
-  position: relative;
-  padding: 100px 0;
+  /* background: transparent url("../images/main_images/subscribe_img.jpg") repeat fixed 0 0/cover; */
+  position: absolute;
+  padding: 120px 0;
+  z-index: 3;
 }
 
 .sign-up-form-section h3 {
