@@ -5178,3 +5178,40 @@ li.active a, li.active a:hover {
 .pad-4-lg {
   padding: 75px;
 }
+@media (min-width: 1200px) {
+  .left-rate {
+    
+  }
+  .right-rate {
+
+  }
+  .left-rate, .right-rate {
+    min-width: 400px;
+    max-width: 530px;
+  }
+}
+
+@media (min-width: 768px) {
+  .left-rate {
+    
+  }
+  .right-rate {
+
+  }
+  .left-rate, .right-rate {
+    min-width: 300px;
+    max-width: 430px;
+  }
+}
+
+.left-rate {
+  position: relative;
+  float: left;
+} 
+.right-rate {
+  position: relative;
+  float: right;
+}
+.left-rate, .right-rate {
+  padding: 5px;
+}
