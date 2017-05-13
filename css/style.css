@@ -1971,7 +1971,7 @@ iframe {
 /*------------------------------------------------------------------*/
 
 .projects-section {
-  padding-top: 12em;
+  padding-top: 6em;
   position: relative;
 }
 
@@ -4748,7 +4748,7 @@ li.active a, li.active a:hover {
 }
 
 .client-section, .about-section, .info-section, .general-info-section, .faq-section, .services-section, .pricing-section, .bg-info-section, .detail-info, .timeline-section, .testimonial-section-block {
-  padding: 12em 0;
+  padding: 4em 0;
 }
 
 .our-features-section, .contact-section {
